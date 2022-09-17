@@ -1,4 +1,20 @@
-![Снимок](https://user-images.githubusercontent.com/100095364/190495332-e9a7d3cd-923a-4cdc-bfb3-969553b34282.PNG)
-![Снимок1](https://user-images.githubusercontent.com/100095364/190495341-9d646cbb-b156-4e0d-857e-9c3af5963190.PNG)
-![Снимок3](https://user-images.githubusercontent.com/100095364/190495345-75f9f581-7324-410d-ba4a-324729ec0a3e.PNG)
-![Снимок4](https://user-images.githubusercontent.com/100095364/190495353-70a0c983-9954-4df7-8ac0-2de09681090b.PNG)
+# Курсовой проект по модулю «Автоматизация тестирования» для профессии «Инженер по тестированию»
+
+## Инструкция по запуску
+
+1. Установить [Docker](https://www.docker.com/).
+2. Установить [IntelliJ IDEA](https://www.jetbrains.com/toolbox-app/) (подробное описание установки [тут](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/idea.md)).
+3. Создать проект в IDEA на базе Gradle.
+4. Клонировать [репозиторий](https://github.com/Kitsune785/Coursework.git).
+5. Запустить MySQL:
+    - запустить Docker
+    - в окне терминала IntelliJ IDEA выполнить команду `docker-compose up`
+    - открыть новую вкладку терминала
+    - выполнить команду `java -jar aqa-shop.jar`
+    - запустить тестирование
+- отчет по тестированию можно просмотреть 
+
+### Документация к проекту
+- [План тестирования]()
+- Отчет о проведении тестирования
+- Отчет о проведении автоматизации
