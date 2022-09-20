@@ -288,7 +288,7 @@ public class PaymentDebitTest {
         cardName.setValue(DataHelper.generateName("en"));
         cardCode.setValue(DataHelper.generateCodeCvc());
         TransferPage.getPay();
-        TransferPage.yearErrors();
+        TransferPage.completionErrors();
     }
 
     @Test
